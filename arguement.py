@@ -7,6 +7,6 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
             return False
         retries = retries - 1
         if retries < 0:
-            raise IOError('refuseing user')
+            raise IOError('refus user login')
         print complaint
 ask_ok('Do you really want to quit?')
